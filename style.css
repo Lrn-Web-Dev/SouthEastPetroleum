@@ -31,9 +31,15 @@ body
 nav
 {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 10px;
+}
+
+
+.navbar__menu 
+{
+    visibility: hidden;
 }
 
 .mobile__menu:hover
@@ -54,8 +60,15 @@ cursor: pointer;
 {
     background-color: #4a4a4a;
 }
+
 }
 
+
+.mobile__menu
+{
+ position: absolute;
+ right: 25px;
+}
 h1
 {
     color:#ECC746;
@@ -83,7 +96,7 @@ p
 
 .container__1
 {
-    padding:20px 30px;
+    padding:100px 30px;
 }
 
 .scroll
@@ -132,6 +145,7 @@ p
 
 h2
 {
+  
   text-align: right;
   margin: 20px;
 }
@@ -383,7 +397,7 @@ button:hover
         max-width: 1270px;
      }
 
-     .vision-container, .mision-container
+     .vision-container, .mision-container, .services
      {
         height: 500px;
      }
@@ -393,6 +407,22 @@ button:hover
         text-align: right;
      }
 
+    h2
+    {
+        font-size: 56px;
+    }
+
+    .navbar__menu 
+    {
+        visibility: visible;
+display: flex;
+    }
+
+    li 
+    {
+        list-style: none;
+    }
+   
 
    
     }
