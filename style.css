@@ -445,5 +445,10 @@ display: flex;
     {
         color: #4a4a4a;
     }
+
+    .navbar__menu
+    {
+        align-items: center;
+    }
    
     }
