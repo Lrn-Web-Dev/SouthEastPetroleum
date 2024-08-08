@@ -450,5 +450,11 @@ display: flex;
     {
         align-items: center;
     }
+
+    footer
+    {
+        max-width: 1270px;
+        margin: 0 auto;
+    }
    
     }

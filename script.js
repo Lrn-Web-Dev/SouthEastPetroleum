@@ -1,6 +1,7 @@
 const menu = document.getElementById("menu");
 const popup = document.getElementById("menu-popup");
 
+
 menu.addEventListener("click", showMenu);
 
 function showMenu()
